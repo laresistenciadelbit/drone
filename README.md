@@ -1,6 +1,6 @@
 # drone
 
-![Alt 1.png](img/1.png?raw=true "1.png")
+![Alt 1.png](img/1.jpg?raw=true "1.jpg")
 
 ## Creación de un quadcopter manejado con el mando de la xbox a partir de arduino pro micro 3.3v y módulos
 
