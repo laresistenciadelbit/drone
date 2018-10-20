@@ -1,0 +1,10 @@
+hubsan motor = CL-0820-15
+
+
+operating voltage: 1.5-3.7V
+max. thrust: 40g (direct drive, Hubsan X4 propeller)
+2.75A max. load current at 3.7V  (Hubsan X4 propeller)
+15.000Kv -> 3.7*15000=55500rpm
+45g de levantamiento
+
+(use resistor between 200 Ohm - 1k Ohm to not burn the transistor)

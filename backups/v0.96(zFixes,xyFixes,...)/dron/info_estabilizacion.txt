@@ -1,0 +1,15 @@
+1-estabilizacion normal
+	se ejecuta mientras se están mandando comandos.
+	solo estabiliza eje x e y ( una estabilización con poca restricción de grados (45) )
+
+2-estabilización estricta
+	se ejecuta tras pasar 1 segundo sin recibir comandos.
+	2.1pone la velocidad estable que teníamos almacenada en los motores
+	2.2estabiliza eje x e y estrictamente ( 15 grados como máximo )
+
+3-reestabilización
+	tras pasar 1 segundo sin recibir comandos, después
+	durante 1.5segundos toma medidas cada 0.25 segundos de la altura actual,
+	si la altura ha variado 0.75metros volvemos a estabilizar el eje z manteniéndonos
+	en la primera altura tomada.
+	almacenamos estas nuevas velocidades estables de los motores en el vector stable[] (stable[]=speed[])
